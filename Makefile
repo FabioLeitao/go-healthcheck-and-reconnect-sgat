@@ -2,9 +2,9 @@ all: tidy vendor build run
 all-gorm: tidy vendor build-gorm run-gorm
 
 build:
-	go build -o app cmd/app/main.go
+	go build -o healthcheck_sgad cmd/app/main.go
 run:
-	./app
+	./healthcheck_sgad
 
 build-gorm:
 	go build -o appgorm cmd/appgorm/main.go
@@ -13,6 +13,7 @@ run-gorm:
 
 clean:
 	rm ./app
+	rm ./healthcheck_sgad
 	rm -rf vendor
 
 tidy:
