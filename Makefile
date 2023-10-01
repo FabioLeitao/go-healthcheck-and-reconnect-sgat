@@ -12,7 +12,6 @@ run-gorm:
 	./appgorm
 
 clean:
-	rm ./app
 	rm ./healthcheck_sgad
 	rm -rf vendor
 
