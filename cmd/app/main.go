@@ -85,6 +85,10 @@ func main() {
 		}
 
 		// Use results for logic
+		if VALUE.String == "false" {
+//			fmt.Println("Deveria ser resetado para TRUE")
+			corrige_cosetting()
+		}
 		if VALUE.String == "falso" {
 //			fmt.Println("Deveria ser resetado para TRUE")
 			corrige_cosetting()

@@ -7,7 +7,8 @@
 *.dll
 *.so
 *.dylib
-healcheck_sga*
+healcheck_sgad
+healcheck_sgat
 
 # Test binary, built with `go test -c`
 *.test
