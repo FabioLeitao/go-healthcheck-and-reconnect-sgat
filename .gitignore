@@ -8,13 +8,28 @@
 *.so
 *.dylib
 healcheck_sgad
+healthcheck_sgad
 healcheck_sgat
+healthcheck_sgat
 
 # Test binary, built with `go test -c`
 *.test
 
 # Output of the go coverage tool, specifically when used with LiteIDE
 *.out
+
+# Compressed
+*.zip
+*.7z
+*.7zip
+*.gz
+*.bz
+*.bzip2
+*.tar
+*.tgz
+*.tbz
+*.xz
+*.zstd
 
 # Dependency directories (remove the comment below to include it)
 # vendor/
