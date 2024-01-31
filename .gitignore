@@ -8,9 +8,13 @@
 *.so
 *.dylib
 healcheck_sgad
+go_healcheck_sgad
 healthcheck_sgad
+go_healthcheck_sgad
 healcheck_sgat
+go_healcheck_sgat
 healthcheck_sgat
+go_healthcheck_sgat
 
 # Test binary, built with `go test -c`
 *.test
